@@ -1,0 +1,217 @@
+body{
+    padding: 7%;
+    border-radius: 2%;
+    margin: 0%;
+    background-color: rgb(214, 181, 181)
+}
+ul.nav-ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+padding: 0px;
+margin: 0px;
+}
+.navigation a{
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    background-color: rgb(235, 190, 190, 0);
+    border: 2px solid rgb(196, 163, 163);
+    border-radius: 3px;
+    box-shadow: 5px 5px rgb(221, 100, 100);;;
+    color: white;
+}
+img.cover{
+    height:400px;
+     width:80%; 
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 50px ;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+/* ALL H TAGS */
+h1{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    font-family: 'Snell Roundhand', 'cursive'
+}
+h2{
+    color: rgb(179, 76, 76);
+}
+/* CLASS */
+.header{
+    background-color: rgb(167, 105, 105);
+    color: #ffffff;
+    border-radius: 15px 50px 0px 0px;
+}
+.logo{
+   position: absolute;
+   left:200px;
+  top:108px;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+.title-text{
+    display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.navigation{
+    margin: 0px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(167, 105, 105);
+    border-radius: 0px 0px 10px 50px;
+}
+.wrapper{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+   
+    margin-top: 10px;
+}
+.address-title{
+    color: rgb(93, 118, 192);
+    font-size: 22px;
+    font-weight: 600;
+}
+.wrapper{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    margin-top: 10px;
+}
+.address-title{
+    color: rgb(93, 118, 192);
+    font-size: 22px;
+    font-weight: 600;
+}
+/* -----------------------------TO DO PAGE --------------------------- */
+.close {
+    margin-left: 80px;
+    padding: 3px 6px 3px 6px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  input {
+    border: solid rgb(133, 118, 118);
+    border-radius: 1px;
+    width: 45%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+
+  .btn{
+    position: relative;
+    border: transparent ;
+    border-radius: 14px;
+    left: 22px;
+    background-color: blue;
+    color: #ffff;
+    font-family: sans-serif;
+    padding: 10px 20px;
+  }
+  #ul li {
+    padding: 20px;
+  }
+  .wrapper h1 {
+    /* text-align: center; */
+    padding-left: 40%;
+    padding-bottom: 5%;
+  }
+  .title{
+    padding-left: 30%;
+  }
+/* ------------------------------------SLIDER HOMEPAGE --------------------------------- */
+  
+  * {box-sizing: border-box;}
+
+  .slider{
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+    height: 500px;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+ 
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dot */
+  .dot-group{
+    text-align:center
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .slider img {
+    width: 100%;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
